@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+
 if(empty($_GET['goto'])) {
 	die('Please add a ?goto= param with the url you want to visit!');
 }
